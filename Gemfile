@@ -14,6 +14,9 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+gem 'active_model_serializers'
+gem 'jquery-rails'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
