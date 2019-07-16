@@ -1,0 +1,21 @@
+<div class="columns">
+  <div class="column">
+    <section class="section">
+      <div class="list is-hoverable">
+          <% @teachers.each do |teacher| %>
+              <a href="#" class="list-item"><%= teacher.name %></a>
+          <% end %>
+      </div>
+    </section>
+  </div>
+  <div class="column">
+    <div id="teacher">
+      <section class="section">
+      <h1>Click on a teacher to view their student roster</h1>  
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
